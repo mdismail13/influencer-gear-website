@@ -77,3 +77,32 @@
 .text-color-7{
     color: #D9DBE1;
 }
+
+
+/* header section styles */
+
+
+/* navbar section styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    padding-left: 0;
+    gap: 34px;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-links{
+    text-decoration: none;
+}
+
+.brand{
+    font-size: 1.5rem;
+}
