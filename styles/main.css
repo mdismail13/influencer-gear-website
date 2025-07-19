@@ -203,6 +203,8 @@ body{
         justify-content: center;    
         border: none;
         box-shadow: none;
+        column-gap: 5px;
+        row-gap: 10px;
     }
     .sponsor{
         transform: scale(0.6);
