@@ -43,10 +43,6 @@
 /* color styles */
 
 .primary-color{
-    background-color: #E02C6D;
-}
-
-.secondary-color{
     color: #E02C6D;
 }
 
@@ -78,7 +74,24 @@
     color: #D9DBE1;
 }
 
+/* shared styles */
 
+.btn-primary{
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
 /* header section styles */
 
 
@@ -87,10 +100,12 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-items{
     display: flex;
+    align-items: center;
     padding-left: 0;
     gap: 34px;
 }
@@ -105,4 +120,58 @@
 
 .brand{
     font-size: 1.5rem;
+}
+
+/* banner section styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+    
+}
+
+.banner-content{
+    max-width: 582px;
+}
+
+
+.banner-title{
+    font-size: 3.25rem;
+}
+
+.banner-img-box{
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 30px 33px 31px 2px;
+
+}
+.banner-img{
+    width: 100%;
+}
+/* responsive section */
+
+@media screen and (max-width:576px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-title{
+    font-size: 1.75rem;
+    }
+    .banner-description{
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
