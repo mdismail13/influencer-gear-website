@@ -150,11 +150,9 @@ body{
     background-position: center center;
     background-size: contain;
     padding: 30px 33px 31px 2px;
-    border: 1px solid;
 }
 .banner-img{
     width: 100%;
-    border: 1px solid;
 }
 /* responsive section */
 
