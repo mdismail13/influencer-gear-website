@@ -202,11 +202,13 @@ body{
         flex-wrap: wrap;   
         justify-content: center;    
         border: none;
+        margin-top: 50px 42.5px 50px;
+        padding: 0;
         box-shadow: none;
         row-gap: 10px;
     }
     .sponsor{
-        transform: scale(0.4);
+        transform: scale(0.68);
     }
 
 }
