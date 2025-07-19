@@ -175,4 +175,7 @@ body{
         font-weight: 500;
         margin: 0 40px;
     }
+    .banner-img-box{
+        margin: auto 50px;
+    }
 }
