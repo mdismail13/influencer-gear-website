@@ -264,6 +264,9 @@ body{
     margin-top: 100px;
 }
 
+.feature > div{
+    flex: 1;
+}
 
 .feature-title{
     font-size: 2.375rem;
@@ -278,9 +281,7 @@ body{
 .feature-content{
     max-width: 610px;
 }
-.feature-img{
-    width: 50%;
-}
+
 .feature-img img{
     width:100%;
 }
@@ -342,4 +343,22 @@ body{
         font-style: normal;
     }
 
+    .feature{
+        flex-direction: column-reverse;
+        gap:30px;
+        margin-top: 50px;
+    }
+
+    .feature-content{
+        text-align: center;
+    }
+
+    .feature-title{
+    font-size: 1.5rem;
+    }
+    .feature-description{
+        text-align: center;
+        border: 1px solid;
+        margin: 13px 20px 20px 30px;
+    }
 }
