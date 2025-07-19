@@ -173,9 +173,9 @@ body{
     .banner-description{
         font-size: 0.875rem;
         font-weight: 500;
-        padding: 0 40px;
+        margin: 0 40px;
     }
-    .banner-img-box{
-        padding: 0 50px;
+    .banner-img-box, .banner-img{
+        margin: 0 50px;
     }
 }
