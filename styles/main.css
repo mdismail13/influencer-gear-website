@@ -135,19 +135,21 @@ body{
 .banner-content{
     max-width: 582px;
 }
-
+.banner-content > *{
+    margin-bottom: 16px;
+}
 
 .banner-title{
     font-size: 3.25rem;
 }
 
+
 .banner-img-box{
-    background-image: url(../images/Circle\ design.svg);
+    background-image: url(/images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     padding: 30px 33px 31px 2px;
-
 }
 .banner-img{
     width: 100%;
@@ -171,7 +173,6 @@ body{
     .banner-description{
         font-size: 0.875rem;
         font-weight: 500;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin: 0 40px;
     }
 }
