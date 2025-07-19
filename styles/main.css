@@ -154,6 +154,24 @@ body{
 .banner-img{
     width: 100%;
 }
+
+
+/* sponsors section style */
+
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding: 35px 62px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    box-shadow: 0px 0px 1px 0px #5E6366;
+}
+
 /* responsive section */
 
 @media screen and (max-width:576px){
@@ -180,4 +198,14 @@ body{
         padding: 51px 33px 16px 22px;
         margin: auto 50px;
     }
+    .sponsors{
+        flex-wrap: wrap;       
+        border: none;
+        box-shadow: none;
+        justify-content: center;
+    }
+    .sponsor{
+        transform: scale(0.6);
+    }
+
 }
