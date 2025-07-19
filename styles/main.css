@@ -298,6 +298,7 @@ body{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 100px;
 }
 
 .footer-title{
@@ -331,10 +332,12 @@ body{
     }
     .nav-items{
         flex-direction: column;
+        gap: 20px;
     }
     .banner{
         flex-direction: column-reverse;
         text-align: center;
+        margin-top: 50px;
     }
     .banner-title{
     font-size: 1.75rem;
@@ -393,5 +396,8 @@ body{
     .feature-description{
         text-align: center;
         margin: 13px 20px 20px 30px;
+    }
+    .footer{
+        margin-top: 50px;
     }
 }
