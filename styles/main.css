@@ -173,10 +173,9 @@ body{
     .banner-description{
         font-size: 0.875rem;
         font-weight: 500;
-        margin: 0 40px;
+        padding: 0 40px;
     }
     .banner-img-box{
-        margin-left: 50px;
-        margin-right: 50px;
+        padding: 0 50px;
     }
 }
