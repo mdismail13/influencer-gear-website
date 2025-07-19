@@ -150,9 +150,11 @@ body{
     background-position: center center;
     background-size: contain;
     padding: 30px 33px 31px 2px;
+    border: 1px solid;
 }
 .banner-img{
     width: 100%;
+    border: 1px solid;
 }
 /* responsive section */
 
@@ -173,9 +175,11 @@ body{
     .banner-description{
         font-size: 0.875rem;
         font-weight: 500;
-        margin: 0 40px;
+        padding: 0 20px;
+        margin: 15px 20px 20px 20px;
     }
-    .banner-img-box, .banner-img{
-        margin: 0 50px;
+    .banner-img-box{
+        padding: 51px 33px 16px 22px;
+        margin: auto 50px;
     }
 }
